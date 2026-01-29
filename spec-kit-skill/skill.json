@@ -1,0 +1,54 @@
+{
+  "name": "spec-kit",
+  "version": "1.0.0",
+  "description": "Spec-Kit 是 GitHub 官方开源的规范驱动开发工具,通过'规范即源码'的理念改变传统AI编码方式。帮助你建立项目章程、创建功能规范、制定技术方案、拆分任务并生成代码。",
+  "author": "CodeBuddy",
+  "keywords": [
+    "spec-kit",
+    "specification",
+    "规范驱动开发",
+    "开发流程",
+    "AI编码",
+    "项目管理",
+    "架构设计"
+  ],
+  "homepage": "https://github.com/github/spec-kit",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "constitution",
+      "description": "创建或更新项目章程,定义项目的核心原则和约束",
+      "file": "commands/constitution.md"
+    },
+    {
+      "name": "specify",
+      "description": "定义功能规范(WHAT),描述要做什么和为什么",
+      "file": "commands/specify.md"
+    },
+    {
+      "name": "clarify",
+      "description": "澄清规范中的模糊点,解决需求中的不明确问题",
+      "file": "commands/clarify.md"
+    },
+    {
+      "name": "plan",
+      "description": "创建技术方案(HOW),定义怎么做",
+      "file": "commands/plan.md"
+    },
+    {
+      "name": "tasks",
+      "description": "拆分任务列表,将方案拆解为可执行的原子任务",
+      "file": "commands/tasks.md"
+    },
+    {
+      "name": "implement",
+      "description": "执行代码实现,按照任务列表生成代码",
+      "file": "commands/implement.md"
+    },
+    {
+      "name": "analyze",
+      "description": "质量检查与一致性分析,验证规范和代码的一致性",
+      "file": "commands/analyze.md"
+    }
+  ]
+}
